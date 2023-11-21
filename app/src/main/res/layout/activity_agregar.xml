@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azulMarino"
+    android:orientation="vertical"
+    tools:context=".Agregar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/azulFondo"
+        android:gravity="center"
+        android:text="Agregar Nuevo Articulo"
+        android:textColor="@color/azulBrillante"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Nombre"
+        android:textColor="@color/textoTituloGris"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtNombreAG"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:textAlignment="center"
+        android:background="@drawable/bordetexto" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Categoria"
+        android:textColor="@color/textoTituloGris"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtCategoriaAG"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:textAlignment="center"
+        android:background="@drawable/bordetexto" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="URL Imagen"
+        android:textColor="@color/textoTituloGris"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtImgUrlAG"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:textAlignment="center"
+        android:background="@drawable/bordetexto" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Precio"
+        android:textColor="@color/textoTituloGris"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtPrecioAG"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:textAlignment="center"
+        android:background="@drawable/bordetexto" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Stock"
+        android:textColor="@color/textoTituloGris"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtStockAG"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:textAlignment="center"
+        android:background="@drawable/bordetexto" />
+
+    <Button
+
+        android:id="@+id/btnAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/bordeboton"
+        android:gravity="center"
+        android:text="Agregar"
+        android:textAllCaps="false"
+        android:textColor="@color/azulBrillante"
+        android:textSize="25dp" />
+
+    <Button
+
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/bordeboton"
+        android:gravity="center"
+        android:text="Volver"
+        android:textAllCaps="false"
+        android:textColor="@color/azulBrillante"
+        android:textSize="25dp" />
+</LinearLayout>

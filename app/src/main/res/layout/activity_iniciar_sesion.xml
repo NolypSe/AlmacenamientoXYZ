@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azulMarino"
+    tools:context=".IniciarSesion">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="359dp"
+        android:layout_height="687dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="59dp"
+        android:background="@color/azulMarino"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            app:srcCompat="@drawable/logoxyz" />
+
+        <EditText
+            android:id="@+id/txtIngreseEmail"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bordetexto"
+            android:ems="10"
+            android:hint="Ingrese un Email"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/textoTituloGris"
+            android:textColorHint="@color/textoTituloGris" />
+
+        <EditText
+            android:id="@+id/txtIngresePassword"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/bordetexto"
+            android:ems="10"
+            android:hint="Ingrese una Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@color/textoTituloGris"
+            android:textColorHint="@color/textoTituloGris" />
+
+        <Button
+            android:id="@+id/btnIniciarSesionD"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/bordeboton"
+            android:onClick="IniciarSesion"
+            android:text="Iniciar Sesion"
+            android:textColor="@color/azulBrillante" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

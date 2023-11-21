@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "198437733164",
+    "project_id": "almacenamientoxyz",
+    "storage_bucket": "almacenamientoxyz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198437733164:android:f234fc9feb6a978167e289",
+        "android_client_info": {
+          "package_name": "com.example.xyz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpgPY9qfz4m11ccZ-92_F6zzuszb13L40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
